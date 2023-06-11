@@ -30,7 +30,7 @@ async function pingHost() {
 
         // Set the values in the table cells
         hostCell.innerHTML = host;
-        pingRateCell.innerHTML = pingRate + "ms";
+        pingRateCell.innerHTML = pingRate + " ms";
 
         // Display the table
         table.style.display = "table";
