@@ -5,9 +5,9 @@ async function pingHost() {
     alert("host cannot be empty");
     return;
   }
-  var interval = parseInt(document.getElementById("interval").value, 10);
-  if (isNaN(interval) || interval === 0) {
-    interval = 1;
+  var count = parseInt(document.getElementById("count").value, 10);
+  if (isNaN(count) || count === 0) {
+    count = 1;
   }
   var url = protocol + "://" + host;
 
@@ -42,7 +42,7 @@ async function pingHost() {
   }
 
   // Start the ping requests in a loop
-  for (var i = 0; i < interval; i++) {
+  for (var i = 0; i < count; i++) {
     try {
       await makePingRequest();
     } catch (error) {
