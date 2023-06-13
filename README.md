@@ -1,7 +1,9 @@
 # ping-test
+
 UI to run a ping test on any host using `http` or `https` protocol
 
-> The [JavaScript](ping.js) responsible for the ping uses `fetch` functionality with `no-cors` mode to avoid being blocked by CORS pre-flight request.
+> The [JavaScript](ping.js) responsible for the ping uses `fetch` functionality with `no-cors` mode to avoid being
+> blocked by CORS pre-flight request.
 
 [Demo](https://htmlpreview.github.io/?https://github.com/thevickypedia/ping-test/blob/main/ping.html)
 

@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ping Test</title>
-  <link href="ping.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script type="text/javascript" src="ping.js"></script>
+    <title>Ping Test</title>
+    <link href="ping.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="ping.js"></script>
 </head>
 <body>
-  <h1>Ping Test</h1>
-  <label for="protocol">Protocol:</label>
-  <select id="protocol">
+<h1>Ping Test</h1>
+<label for="protocol">Protocol:</label>
+<select id="protocol">
     <option value="http">HTTP</option>
     <option value="https">HTTPS</option>
-  </select>
-  <br><br>
-  <label for="host">Host:</label>
-  <input type="text" id="host" placeholder="Enter host" />
-  <br><br>
-  <label for="count">Count:</label>
-  <input type="number" id="count" value="5" />
-  <button onclick="pingHost()">Start Ping</button>
-  <br><br>
-  <!-- Table to display ping results -->
-  <table id="pingTable" style="display: none;">
+</select>
+<br><br>
+<label for="host">Host:</label>
+<input type="text" id="host" placeholder="Enter host"/>
+<br><br>
+<label for="count">Count:</label>
+<input type="number" id="count" value="5"/>
+<button onclick="pingHost()">Start Ping</button>
+<br><br>
+<!-- Table to display ping results -->
+<table id="pingTable" style="display: none;">
     <tr>
-      <th>Host</th>
-      <th>Ping Rate</th>
+        <th>Host</th>
+        <th>Ping Rate</th>
     </tr>
-  </table>
+</table>
 </body>
 </html>
